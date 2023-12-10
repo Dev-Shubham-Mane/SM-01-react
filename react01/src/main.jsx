@@ -5,8 +5,13 @@ import App from './App.jsx'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 
+const anotherEle = (
+  <a href='' target='_blank' > visit knowere</a>
+)
+
   root.render(
 
-      <App />  
+    anotherEle
+      //<App />  
 
 )
