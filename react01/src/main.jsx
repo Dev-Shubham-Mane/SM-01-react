@@ -9,9 +9,14 @@ const anotherEle = (
   <a href='' target='_blank' > visit knowere</a>
 )
 
+const reactElement = (
+  'a',
+  {href :'', target :'_target'},
+  'click me for nothing'
+)
+
   root.render(
 
-    anotherEle
-      //<App />  
-
+  reactElement
+   
 )
