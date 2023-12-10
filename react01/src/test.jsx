@@ -4,4 +4,4 @@ function Name() {
     )
 }
 
-export default test
+export default Name
