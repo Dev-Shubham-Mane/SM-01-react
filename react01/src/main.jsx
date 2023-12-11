@@ -9,14 +9,17 @@ const anotherEle = (
   <a href='' target='_blank' > visit knowere</a>
 )
 
-const reactElement = (
+const reactElement = React.createElement(
   'a',
-  {href :'', target :'_target'},
+  {href:'https://www.google.co.in', target:'_blank'},
   'click me for nothing'
 )
+   
+    root.render(
 
-  root.render(
-
-  reactElement
+       
+      <App />
+      
+    //reactElement
    
 )
